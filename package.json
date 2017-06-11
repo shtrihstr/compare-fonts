@@ -1,0 +1,20 @@
+{
+  "name": "compare-fonts",
+  "description": "Defines visual similarity of fonts and calculates CSS properties for better similarity",
+  "version": "0.2.0",
+  "scripts": {
+    "test": "eslint ./src"
+  },
+  "main": "src/compare-fonts.js",
+  "dependencies": {
+    "opentype.js": "^0.7.2",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-jsx-a11y": "^5.0.3"
+  }
+}
